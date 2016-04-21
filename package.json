@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node .",
     "pretest": "jshint .",
+    "test": "ava",
     "posttest": "nsp check"
   },
   "dependencies": {
