@@ -5,3 +5,13 @@ machine:
 machine:
   node:
     version: 5.10.0
+
+deployment:
+  production:
+    branch: master
+    heroku:
+      appname: CircleCI-Test-Production
+  staging:
+    branch: development
+    heroku:
+      appname: CircleCI-Test-Staging
