@@ -10,8 +10,8 @@ deployment:
   production:
     branch: master
     heroku:
-      appname: CircleCI-Test-Production
+      appname: circle-test-production
   staging:
     branch: development
     heroku:
-      appname: CircleCI-Test-Staging
+      appname: circle-test-staging
